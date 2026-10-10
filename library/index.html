@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Library Website</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    </head>
+<body>
+<h1 style="text-align:center; color:#F54927;">Library Members Profile</h1>
+<p style="text-align:center; font-size:18px;">
+    <b>Welcome to the Library Members Profile Page!</b><i> Become a member Now!</i>
+</p>
+
+<div><h2>Member Information</h2>
+    <p>This is a library members profile page.
+        You can visit our <a href="https://www.google.com" target="_blank">Library Website</a> for more information about our services and resources.
+    </p>
+  </div>
+<span>Library image <img src = "https://www.aiub.edu/Files/Uploads/Original/library-img-3.jpg" alt="Library Image" width="600"></span>
+
+<span><h2>Member Details:</h2></span>
+    <table border="1" >
+        <tr>
+            <th>Member ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Image</th>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>John Doe</td>
+            <td>john.doe@example.com</td>
+            <td><img src="https://via.placeholder.com/100" alt="John Doe" width="100"></td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>Nara Smith</td>
+            <td>nara.smith@example.com</td>
+            <td><img src="https://via.placeholder.com/100" alt="Nara Smith" width="100"></td>
+        </tr>
+        <tr>
+            <td>003</td>
+            <td>Jane Doe</td>
+            <td>jane.doe@example.com</td>
+            <td><img src="https://via.placeholder.com/100" alt="Jane Doe" width="100"></td>
+        </tr>
+        <tr>
+            <td>004</td>
+            <td>Mike Johnson</td>
+            <td>mikejson@gmail.com</td>
+            <td><img src="https://via.placeholder.com/100" alt="Mike Johnson" width="100"></td>
+        </tr>
+    </table>
+    <br>
+    <div>
+<form action=" "  method="get">
+    <table border="1">
+        <tr>
+            <td><label for="name">Name:</label></td>
+            <td><input type="text" id="name" name="name"
+                placeholder="Enter your name" required></td>
+        </tr>
+
+        <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="email" id="email" name="email"
+                placeholder="Enter your email" required></td>
+        </tr>
+
+        <tr>
+            <td><label for="password">Password:</label></td>
+            <td><input type="password" id="password" name="password"
+                placeholder="Enter your password" required></td>
+        </tr>
+
+        <tr>
+            <td><label for="age">Age:</label></td>
+            <td><input type="number" id="age" name="age"
+                placeholder="Enter your age" required></td>
+        </tr>
+
+        <tr>
+            <td><label for="DOB">Date of Birth:</label></td>
+            <td><input type="date" id="DOB" name="DOB" required></td>
+        </tr>
+
+        <tr>
+            <td><label>Gender:</label></td>
+            <td>
+                <input type="radio" id="male" name="gender"
+                    value="male" required>
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender"
+                    value="female">
+                <label for="female">Female</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="type">Membership Type:</label></td>
+            <td>
+                <select id="type" name="type" required>
+                    <option value="">Select your membership type</option>
+                    <option value="student">Student</option>
+                    <option value="faculty">Faculty</option>
+                    <option value="community">Community</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="pfp">Profile Picture:</label></td>
+            <td><input type="file" id="pfp" name="pfp"
+                accept="image/*"></td>
+        </tr>
+
+        <tr>
+            <td><label for="address">Address:</label></td>
+            <td><textarea id="address" name="address"
+                placeholder="Enter your address" required></textarea></td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <input type="submit" value="Submit">
+            </td>
+        </tr>
+        <tr><h2>Terms and Conditions</h2></tr>
+        <tr>
+            <td colspan="2">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I agree to the terms and conditions</label>
+            </td>
+        </tr>
+    </table>
+</form>
+
+
+
+
+
+</body>
